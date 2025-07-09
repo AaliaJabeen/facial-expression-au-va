@@ -1,6 +1,4 @@
 ---
-
-```markdown
 # Facial Expression to Valence-Arousal Mapping
 
 A PyTorch-based project that detects facial expressions from the FER2013 dataset using a CNN model, maps them to Facial Action Units (AUs), and estimates Valence-Arousal (VA) emotional dimensions.
