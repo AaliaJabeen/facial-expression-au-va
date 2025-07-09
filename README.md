@@ -69,6 +69,12 @@ data/
     ├── angry/
     └── ...
 ```
+or
+
+```bash
+pip install kagglehub
+python download_dataset.py
+```
 
 3. **Train the model**
 
