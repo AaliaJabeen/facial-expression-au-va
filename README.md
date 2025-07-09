@@ -45,10 +45,10 @@ facial-emotion-va/
 1. **Clone the repo & create environment**
 
 ```bash
-git clone https://github.com/iammasoodalam/facial-emotion-va.git
-cd facial-emotion-va
-python -m venv isi
-venv\Scripts\activate        # or(in linux) source venv/bin/activate
+git clone https://github.com/iammasoodalam/facial-expression-au-va.git
+cd facial-expression-au-va
+python -m venv .
+Scripts\activate        # or (in linux) source bin/activate
 pip install -r requirements.txt
 ````
 
