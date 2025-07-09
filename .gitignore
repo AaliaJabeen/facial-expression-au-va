@@ -1,0 +1,35 @@
+Lib/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# PyTorch model files
+*.pth
+*.pt
+
+# Dataset (avoid pushing FER2013 images)
+data/
+!data/.gitkeep
+
+# Logs and cache
+*.log
+*.tmp
+.cache/
+
+# Environment variables
+.env
+.env.*
+
+# OS/Editor junk
+Thumbs.db
+desktop.ini
+
+# Jupyter runtime files
+*.kernel.json
