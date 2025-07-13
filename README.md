@@ -77,7 +77,7 @@ python download_dataset.py
 
 3. **Train the model**
 
-Run the scripts in the notebook one-by-one, start from the end of the file
+Run the scripts in the notebook one-by-one
 
 4. **Run inference on a sample image**
 
