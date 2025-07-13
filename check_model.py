@@ -12,7 +12,7 @@ model.load_state_dict(torch.load("models/emotion_cnn.pth"))
 model.eval()
 
 # Load image
-img = Image.open("data/evaluate.bmp").convert("L")
+img = Image.open("data/ishrat.bmp").convert("L")
 transform = transforms.Compose([
     transforms.Resize((48, 48)),
     transforms.ToTensor()

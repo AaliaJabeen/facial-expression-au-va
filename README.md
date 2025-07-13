@@ -47,7 +47,7 @@ facial-emotion-va/
 ```bash
 git clone https://github.com/iammasoodalam/facial-expression-au-va.git
 cd facial-expression-au-va
-python -m venv .
+python -m venv .venv
 Scripts\activate        # or (in linux) source bin/activate
 pip install -r requirements.txt
 ````
@@ -72,7 +72,6 @@ data/
 or
 
 ```bash
-pip install kagglehub
 python download_dataset.py
 ```
 
