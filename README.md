@@ -44,11 +44,14 @@ facial-emotion-va/
 
 1. **Clone the repo & create environment**
 
+> use python 3.10 for this project, in the latest version it might break
+
 ```bash
 git clone https://github.com/iammasoodalam/facial-expression-au-va.git
 cd facial-expression-au-va
 python -m venv .venv
-Scripts\activate        # or (in linux) source bin/activate
+.\.venv\Scripts\python.exe -m pip install --upgrade pip  # or (in linux) .\.venv\bin\python.exe -m pip install --upgrade pip
+Scripts\activate        # or (in linux) source .venv/bin/activate
 pip install -r requirements.txt
 ````
 
