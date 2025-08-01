@@ -1,0 +1,202 @@
+{
+    "AU1": {
+        "description": "Inner Brow Raiser",
+        "landmarks": [
+            70,
+            63,
+            105,
+            66,
+            107
+        ]
+    },
+    "AU2": {
+        "description": "Outer Brow Raiser",
+        "landmarks": [
+            336,
+            296,
+            334,
+            293,
+            300
+        ]
+    },
+    "AU4": {
+        "description": "Brow Lowerer",
+        "landmarks": [
+            94,
+            91,
+            88,
+            95
+        ]
+    },
+    "AU5": {
+        "description": "Upper Lid Raiser",
+        "landmarks": [
+            159,
+            145,
+            386,
+            374
+        ]
+    },
+    "AU6": {
+        "description": "Cheek Raiser",
+        "landmarks": [
+            33,
+            160,
+            158,
+            133,
+            144
+        ]
+    },
+    "AU7": {
+        "description": "Lid Tightener",
+        "landmarks": [
+            159,
+            145,
+            386,
+            374
+        ]
+    },
+    "AU9": {
+        "description": "Nose Wrinkler",
+        "landmarks": [
+            2,
+            98,
+            327
+        ]
+    },
+    "AU10": {
+        "description": "Upper Lip Raiser",
+        "landmarks": [
+            13,
+            14,
+            78,
+            308
+        ]
+    },
+    "AU11": {
+        "description": "Nasolabial Deepener",
+        "landmarks": [
+            48,
+            278,
+            61,
+            291
+        ]
+    },
+    "AU12": {
+        "description": "Lip Corner Puller (Smile)",
+        "landmarks": [
+            61,
+            291
+        ]
+    },
+    "AU13": {
+        "description": "Cheek Puffer",
+        "landmarks": [
+            50,
+            280
+        ]
+    },
+    "AU14": {
+        "description": "Dimpler",
+        "landmarks": [
+            48,
+            278
+        ]
+    },
+    "AU15": {
+        "description": "Lip Corner Depressor",
+        "landmarks": [
+            61,
+            291
+        ]
+    },
+    "AU16": {
+        "description": "Lower Lip Depressor",
+        "landmarks": [
+            17,
+            84,
+            314
+        ]
+    },
+    "AU17": {
+        "description": "Chin Raiser",
+        "landmarks": [
+            18,
+            200
+        ]
+    },
+    "AU18": {
+        "description": "Lip Pucker",
+        "landmarks": [
+            13,
+            14,
+            78,
+            308
+        ]
+    },
+    "AU20": {
+        "description": "Lip stretcher",
+        "landmarks": [
+            61,
+            291
+        ]
+    },
+    "AU22": {
+        "description": "Lip Funneler",
+        "landmarks": [
+            13,
+            14
+        ]
+    },
+    "AU23": {
+        "description": "Lip Tightener",
+        "landmarks": [
+            13,
+            14
+        ]
+    },
+    "AU24": {
+        "description": "Lip Pressor",
+        "landmarks": [
+            13,
+            14
+        ]
+    },
+    "AU25": {
+        "description": "Lips Part",
+        "landmarks": [
+            13,
+            14
+        ]
+    },
+    "AU26": {
+        "description": "Jaw Drop",
+        "landmarks": [
+            17,
+            0
+        ]
+    },
+    "AU27": {
+        "description": "Mouth Stretch",
+        "landmarks": [
+            17,
+            0
+        ]
+    },
+    "AU28": {
+        "description": "Lip Suck",
+        "landmarks": [
+            13,
+            14
+        ]
+    },
+    "AU43": {
+        "description": "Eyes Closed",
+        "landmarks": [
+            159,
+            145,
+            386,
+            374
+        ]
+    }
+}

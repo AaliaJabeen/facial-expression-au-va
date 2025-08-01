@@ -7,7 +7,6 @@ from torchvision import transforms
 from PIL import Image
 import torch
 import json
-import os
 
 # Load model
 class_names = ['angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral']
@@ -20,8 +19,13 @@ model.eval()
 with open("mappings/emotion_to_au.json") as f:
     emotion_to_au = json.load(f)
 
+# Heisenberg.jpg 
+# jacky chan.jpg
+# kevin hart.jpg
+# khal drogo.jpg
+# rock.jpg
 # Load image
-image_path = "data/aalia.jpeg"
+image_path = "data/rock.jpg"
 image_bgr = cv2.imread(image_path)
 image_rgb = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2RGB)
 
