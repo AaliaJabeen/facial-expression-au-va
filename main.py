@@ -24,7 +24,7 @@ with open("mappings/au_landmark_mapping.json") as f:
     au_landmark_mapping = json.load(f)
 
 # Load input image
-image_path = "data/jacky chan.jpg"
+image_path = "data/aalia.jpeg"
 image_bgr = cv2.imread(image_path)
 image_rgb = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2RGB)
 
@@ -90,11 +90,11 @@ if results.multi_face_landmarks:
 
 # Overlay emotion, AU, VA text
 cv2.putText(image_bgr, f'Emotion: {predicted_emotion}', (10, 25),
-            cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
+            cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 0, 0), 2)
 cv2.putText(image_bgr, f'AUs: {", ".join(aus)}', (10, 50),
-            cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1)
+            cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255,0, 0), 1)
 cv2.putText(image_bgr, f'Valence: {valence:.2f}  Arousal: {arousal:.2f}', (10, 75),
-            cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1)
+            cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 0), 1)
 
 # Show the result
 cv2.imshow("Emotion + VA + AU Landmarks", image_bgr)
