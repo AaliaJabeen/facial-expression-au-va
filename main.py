@@ -13,10 +13,10 @@ import os
 class_names = ['angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral']
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = EmotionCNN(num_classes=len(class_names)).to(device)
-model.load_state_dict(torch.load("models/emotion_cnn.pth", map_location=device))
+model.load_state_dict(torch.load("models/emotion_cnn_retrained.pth", map_location=device))
 model.eval()
 
-# Load AU mappingskevikevin hartn hart
+# Load AU mappings
 with open("mappings/emotion_to_au.json") as f:
     emotion_to_au = json.load(f)
 
@@ -24,7 +24,7 @@ with open("mappings/au_landmark_mapping.json") as f:
     au_landmark_mapping = json.load(f)
 
 # Load input image
-image_path = "data/aalia.jpeg"
+image_path = "data/model.jpg"
 image_bgr = cv2.imread(image_path)
 image_rgb = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2RGB)
 
